@@ -170,15 +170,15 @@ export default function RootLayout({
 
             <div className="flex justify-end">
               <a
-                href="https://www.nabla.studio/"
+                href="https://www.dydxopsdao.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="group mt-5 text-sm font-bold flex items-center gap-1"
               >
-                <span className="opacity-50">proudly made by</span>
+                <span className="opacity-50">hosted by dYdX Operations subDAO</span>
                 <Image
-                  src="/nabla_logo.svg"
-                  alt="nabla"
+                  src="/dos_logo.svg"
+                  alt="dYdX operations subDAO"
                   className="w-auto h-3 opacity-50 group-hover:opacity-100 transition-opacity duration-300"
                   width={443}
                   height={81}
