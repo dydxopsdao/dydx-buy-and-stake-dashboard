@@ -124,51 +124,61 @@ export default function RootLayout({
             </div>
 
             <p className="text-justify leading-normal text-muted-foreground text-xs">
-              Nothing in this website should be used or considered as legal,
-              financial, tax, or any other advice, nor as an instruction or
-              invitation to act by anyone. Users should conduct their own
-              research and due diligence before making any decisions.
+              The content made available on this website is provided for general 
+              informational purposes only. The buyback program referenced herein 
+              is launched and managed exclusively by the Treasury SubDAO, which 
+              is an independent third party unaffiliated with dYdX Operations 
+              subDAO (“DOS”), dYdX Foundation, dYdX Trading Inc., or any other 
+              dYdX-affiliated entity (collectively, the “dYdX Entities”). This 
+              website is operated by DOS solely for the purpose of displaying 
+              information and does not itself initiate, operate, or manage the 
+              buyback program. The content on this website does not constitute, 
+              and should not be considered or relied upon as, financial advice, 
+              legal advice, tax advice, investment advice, or advice of any other 
+              nature. Reference to any specific program, strategy, product, 
+              service, or entity does not constitute an endorsement or 
+              recommendation by DOS or any dYdX Entity. Use of any strategies, 
+              techniques, products, or services, or engagement with any entities 
+              referenced in this website, may involve material risks, including 
+              but not limited to financial loss, volatility, operational risk, 
+              or non-consensual liquidation of digital assets.  You agree that 
+              you are solely responsible for conducting independent research, 
+              performing due diligence, and consulting with professional 
+              advisors before taking any financial, tax, legal, or investment 
+              action in connection with the content of this website. The content 
+              of the website is not, and shall not be construed as, an offer, 
+              solicitation, or call to action to purchase, sell, or invest in 
+              any financial or crypto-asset or related service. Neither DOS nor 
+              any of the dYdX Entities makes any representation, assurance, or 
+              guarantee as to the accuracy, completeness, timeliness, 
+              suitability, or validity of any information provided on this 
+              website or linked third-party resources. By accessing the website 
+              and taking any action in connection with the information displayed, 
+              you agree that DOS and the dYdX Entities shall not be liable, 
+              directly or indirectly, for any errors, omissions, or delays in 
+              such information, or for any damage, injury, or loss incurred as 
+              a result of your use of, or reliance on, such content.
               <br />
-              The information in this website may be altered or updated at any
-              time and nabla srl benefit corporation assumes no obligation to
-              publicly disclose any such change. Most of the information in this
-              website has been obtained from third-party sources and has not
-              been independently verified. nabla srl benefit corporation assumes
-              no responsibility for the accuracy or completeness of the
-              information in this website, which is made available to the public
-              for free in good faith and for informational purposes only.
-              Crypto-assets can be highly volatile and trading crypto-assets
-              involves risk of loss, particularly when using leverage.
-              Investment into crypto-assets may not be regulated and may not be
-              adequate for retail investors. Do your own research and due
-              diligence before engaging in any activity involving crypto-assets.
-              dYdX is a decentralised, disintermediated and permissionless
-              protocol, and is not available in the U.S. or to U.S. persons as
-              well as in other restricted jurisdictions. nabla srl benefit
-              corporation has received a grant from the dYdX Ecosystem
-              Development Program to create and administer the Site, without any
-              ongoing control or direction by the dYdX Foundation, dYdX Trading
-              Inc. and/or any other dYdX-affiliated entities (collectively,
-              “dYdX Entities”). nabla srl benefit corporation is fully
-              independent from, and unaffiliated with, any of the dYdX entities.
-              Under no circumstances shall any of the dYdX Entities be held
-              liable for any loss or damage of any kind incurred as a result of
-              the use of the Site or the information or the activities herein,
-              including but not limited to, direct, indirect, incidental,
-              punitive, and consequential damages.
+              Please note that dYdX Chain services and products are not available 
+              to persons or entities who reside in, are located in, are 
+              incorporated in, or have registered offices in the United States, 
+              Canada, or any other restricted jurisdiction, in accordance with 
+              the applicable <a href="https://dydx.trade/terms" target="_blank" rel="noreferrer">
+              Terms of Use
+              </a>.
             </p>
 
             <div className="flex justify-end">
               <a
-                href="https://www.nabla.studio/"
+                href="https://www.dydxopsdao.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="group mt-5 text-sm font-bold flex items-center gap-1"
               >
-                <span className="opacity-50">proudly made by</span>
+                <span className="opacity-50">hosted by dYdX Operations subDAO</span>
                 <Image
-                  src="/nabla_logo.svg"
-                  alt="nabla"
+                  src="/dos_logo.svg"
+                  alt="dYdX operations subDAO"
                   className="w-auto h-3 opacity-50 group-hover:opacity-100 transition-opacity duration-300"
                   width={443}
                   height={81}
