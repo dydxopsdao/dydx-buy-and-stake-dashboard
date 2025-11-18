@@ -156,15 +156,25 @@ export const buybackFeeShareQuery = (startDate: Date, endDate: Date) =>
   queryOptions({
     ...stakingSupplyHistoryQuery(startDate, endDate),
     select(points) {
-      // Funzione per approssimare il valore al target più vicino (12,5 o 25)
+      // Function to approximate the value to the nearest target (12.5, 25, or 75)
       const approximateFee = (value: number): number => {
         // The first proposal was for a fixed theoretical value of 12.5%.
         const target1Prop = 0.125;
         // The second proposal was for a fixed theoretical value of 25%.
         const target2Prop = 0.25;
-        return Math.abs(value - target1Prop) <= Math.abs(value - target2Prop)
-          ? target1Prop
-          : target2Prop;
+        // The third proposal was for a fixed theoretical value of 75%.
+        const target3Prop = 0.75;
+        
+        // Find the target with minimum distance
+        const distances = [
+          Math.abs(value - target1Prop),
+          Math.abs(value - target2Prop),
+          Math.abs(value - target3Prop),
+        ];
+        const targets = [target1Prop, target2Prop, target3Prop];
+        const minDistance = Math.min(...distances);
+        const minIndex = distances.indexOf(minDistance);
+        return targets[minIndex];
       };
 
       const [firstPoint] = points;
