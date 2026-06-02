@@ -69,7 +69,16 @@ export default function Home() {
         >
           #231
         </a>
-        ), allocates 25% of net protocol fees to monthly purchases of DYDX, with
+        ,{" "}
+        <a
+          className="text-primary"
+          href="https://www.mintscan.io/dydx/proposals/313"
+          target="_blank"
+          rel="noreferrer"
+        >
+          #313
+        </a>
+        ), allocates 75% of net protocol fees to monthly purchases of DYDX, with
         the acquired tokens then staked to support the network. This initiative
         reinforces long-term confidence in the token, promotes sustainable token
         economics, and strengthens network security.
